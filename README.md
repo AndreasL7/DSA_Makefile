@@ -24,6 +24,7 @@ Create project directories, commonly files and setup, virtual environment, and d
 2. **For Windows Users**
 
    a. Download and install Git. Follow the instruction [here](https://www.educative.io/answers/how-to-install-git-bash-in-windows "Educative.io")
+
    b. Run Powershell terminal and run the command below (Scoop command-line installer)
     - `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
     - `Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression`
@@ -31,6 +32,7 @@ Create project directories, commonly files and setup, virtual environment, and d
     - `iwr -useb get.scoop.sh -outfile 'install.ps1'`
     - `.\install.ps1 -RunAsAdmin`
     - `scoop install make`
+   
    c. Open Git BASH
 
 3. **Setup Project Directories**
