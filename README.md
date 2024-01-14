@@ -52,7 +52,9 @@ Create project directories, commonly files and setup, virtual environment, and d
 5. **Setup the Virtual Environment**
 
    a. Before setting up the virtual environment, ensure you have `python3` or `conda` installed on your machine.
+   
    b. Ensure you can run `python3 --version` or `conda --version` on your Linux/Mac terminal or Windows Git BASH.
+   
    c. If command is not found, ensure you look for your Python installation folder, copy the path directory and update your PATH environment variable. Restart terminal or Git BASH accordingly.
 
    ```bash
