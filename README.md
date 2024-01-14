@@ -178,7 +178,7 @@ Directory Descriptions:
 ## Alternative Layouts
 
 - [Eric Ma's Layout](https://gist.github.com/ericmjl/27e50331f24db3e8f957d1fe7bbbe510)
-- [Matt Harrison's Layout] (https://github.com/mattharrison/sample_nb_code_project/tree/main)
+- [Matt Harrison's Layout](https://github.com/mattharrison/sample_nb_code_project/tree/main)
 - [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
 
 ---
