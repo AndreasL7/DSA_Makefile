@@ -11,6 +11,7 @@ PYTEST=$(VENV_PATH)/bin/pytest
 ACTIVATE := . $(VENV_PATH)/bin/activate
 CONDA=conda
 
+# Show help
 help:
 	@echo "Choose a command to run:"
 	@echo
@@ -29,7 +30,7 @@ setup_directories:
 	mkdir -p utils
 	mkdir -p config
 	mkdir -p logfiles
-	mkdir -p model
+	mkdir -p models
 	mkdir -p src
 	mkdir -p tests
 	mkdir -p docker
