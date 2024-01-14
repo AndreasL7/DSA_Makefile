@@ -109,10 +109,9 @@ clean:
 	docker rmi $(DOCKER_IMG_NAME)
 	rm -rf __pycache__
 
-# Create a README.md file
+# Create or overwrite README.md file
 setup_readme:
-	@if [ ! -f README.md ]; then \
-		echo "# Project Name\n\
+	echo "# Project Name\n\
 Description of the project.\n\n\
 ## Installation\n\
 - Step 1\n\
@@ -122,12 +121,8 @@ Explain how to use the project here.\n\n\
 ## Contributing\n\
 Explain how to contribute to the project.\n\n\
 ## License\n\
-License information." > README.md; \
-		echo "README.md created."; \
-	else \
-		rm -rf README.md; \
-		echo "README.md already exists."; \
-	fi
+License information." > README.md
+	@echo "README.md created."
 
 # Make it PHONY
 .PHONY: setup_venv test docker_build docker_deploy ci docker_stop clean help setup_readme
