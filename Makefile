@@ -125,6 +125,7 @@ Explain how to contribute to the project.\n\n\
 License information." > README.md; \
 		echo "README.md created."; \
 	else \
+		rm -rf README.md; \
 		echo "README.md already exists."; \
 	fi
 
