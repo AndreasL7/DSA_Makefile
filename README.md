@@ -40,7 +40,7 @@ Create project directories, commonly files and setup, virtual environment, and d
    On Mac/Linux terminal or Windows Git BASH,
    ```bash
    cd <repository-name>
-   make setup-directories
+   make setup_directories
    ```
 
 4. **Setup Common Files**
