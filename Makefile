@@ -34,6 +34,8 @@ setup_directories:
 	mkdir -p src
 	mkdir -p tests
 	mkdir -p docker
+    mkdir -p pdf
+    mkdir -p img
 
 # Create the project initial files
 setup_initfiles:
